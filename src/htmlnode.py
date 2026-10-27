@@ -21,3 +21,7 @@ class HtmlNode:
         return f"HtmlNode({self.tag},{self.value},{self.children},{self.props})"
 
 
+# Alias matching the class name used in the course material.
+HTMLNode = HtmlNode
+
+
